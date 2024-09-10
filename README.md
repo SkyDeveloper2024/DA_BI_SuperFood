@@ -21,7 +21,9 @@ We utilized a dataset provided by RMIT that contains transaction details for Sup
 ### 3. Data Cleaning and Formatting:
  
 Dropped records from 2022 due to incomplete data.     
-Removed 118 duplicate records from the dataset.     
+Removed 118 duplicate records from the dataset.   
+![image](https://github.com/user-attachments/assets/db8b477d-90fb-4cce-932e-119f673d1295)
+
 Replaced values in the "loyalty" column (e.g., "Promiscuous" was changed to "Non-Loyalist").     
 Converted the "transaction_date" column to a datetime format and created new "year" and "month" columns for analysis.     
 Removed the "store" column, as it was not relevant to our analysis.
